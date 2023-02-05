@@ -1,7 +1,21 @@
-# Projetos com Microcontroladores
+# Projetos Visualização Gráfica do Sensor MPU6050
 
-### Esp32
+### Tecnologias Utilizadas:
+>> Microcontrolador Esp32
+>> Sensor MPU 6050
 
+### Linguagens de Programação:
+>> Python
+>> C++
+
+### Framework de Programação do Esp32
+>> PlatfornIO
+
+### Edtor de Texto
+>> luarVim
+
+
+### Informações do Sensor
 >> Sensor MPU6050
 [Informações do Projeto]("Workspace_Esp32Esp8266/Project_MPU6050")
 
