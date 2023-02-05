@@ -1,5 +1,12 @@
 # Projetos Visualização Gráfica do Sensor MPU6050
 
+
+<div align="center">
+    <img src="utils/demo.gif" width=65% align="center"/>
+</div>
+
+<br/>
+
 ### Tecnologias Utilizadas:
 >> Microcontrolador Esp32
 >> Sensor MPU 6050
