@@ -19,18 +19,19 @@ fila = np.array([[], [], [], [], [], []]).astype(object)
 def ler_dados():
     global fila, start
     try:
-        disp = serial.Serial(porta, baud_rate)
+        disp = serial.Serial(porta, baud_rate, timeout=1)
         disp.reset_input_buffer()
         while disp.is_open:
             try:
                 dado = disp.readline()
                 dados1 = str(dado.decode('utf8')).rstrip("\n")
+                print(dados1)
                 dados1 = dados1.split(",")
                 try:
                     dados_float = np.array([dados1], dtype="float64").T
                     if len(fila[0]) <= 51:
                         fila = np.append(fila, dados_float, axis=1)
-                        print(fila)
+                        #print(fila)
                     else:
                         fila = np.delete(fila, np.s_[:1], 1)
                         # print(fila)

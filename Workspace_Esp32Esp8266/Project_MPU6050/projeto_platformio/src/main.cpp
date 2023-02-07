@@ -88,7 +88,8 @@ void setup(void) {
 void loop() {
   /* Get new sensor events with the readings */
   sensors_event_t a, g, temp;
-  mpu.getEvent(&a, &g, &temp);
+  bool s;
+  s = mpu.getEvent(&a, &g, &temp);
   /* Print out the values */
   //Serial.print("Acceleration X: ");
   Serial.print(a.acceleration.x);
