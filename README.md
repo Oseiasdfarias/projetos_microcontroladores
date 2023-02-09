@@ -2,7 +2,7 @@
 
 ### Esp32
 
-#### + Sensor MPU6050
++ #### Sensor MPU6050
 
 [Informações do Projeto]("Workspace_Esp32Esp8266/Project_MPU6050")
 
