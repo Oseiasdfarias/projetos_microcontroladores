@@ -114,7 +114,7 @@ def quit():
 
 
 button = tk.Button(master=root, text="Quit",
-                   bg="blue", fg="white", command=quit)
+                   compound="top", command=quit)
 button.pack(side=tk.BOTTOM, padx=1, pady=1)
 
 
